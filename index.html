@@ -5,17 +5,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google page copy</title>
-    <link rel="stylesheet" type="text/css" href="google_page.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
     <header>
         <ul id="navbar">
 
-            <li><a id="navlink" href=" # ">Gmail</a></li>
-            <li><a id="navlink" href="# ">Images</a></li>
-            <li><a id="navlink" href="# ">Google Apps</a></li>
-            <li><a id="navlink" href="# ">Google Account</a></li>
+            <li><a id="navlink" href="#">Gmail</a></li>
+            <li><a id="navlink" href="#">Images</a></li>
+            <li>
+                <a id="navlink" href="#"><img src="bars.png"></a>
+            </li>
+            <li><button>Sign in</button></li>
 
         </ul>
     </header>
@@ -30,38 +32,41 @@
 
 
         <div class="searchbar">
-            <input id="searchbar" type="text" placeholder="Search">
-        </div>
+            <input class="search" type="text">
+            <div class="icons">
+                <div>
+                    <img id="icon1" src="search.png">
+                    <img id="icon2" src="mic.png ">
+                </div>
+            </div>
 
 
-        <div class="searchbuttons">
-            <button id="searchbuttons" type="button">Google Search!</button>
-            <button id="searchbuttons" type="button">I`m feeling lucky</button>
-        </div>
-        <p id="offered">Google offered in <a href="#">Portugues(Portugal)</a></p>
+            <div class="searchbuttons">
+                <button id="searchbuttons" type="button">Google Search!</button>
+                <button id="searchbuttons" type="button">I`m feeling lucky</button>
+            </div>
+            <p id="offered">Google offered in: <a href="#">Portugues(Portugal)</a></p>
 
     </main>
 
     <footer>
 
-        <ul id="footbar">
-
-
-            <li>Portugal</li>
-
-            <li><a id="footlink" href="# ">Advertising</a></li>
-            <li><a id="footlink" href="# ">Business</a></li>
-            <li><a id="footlink" href="# ">About</a></li>
-            <li><a id="footlink" href="# ">How search works</a></li>
-            <li><a id="footlink" href="# ">Privacy</a></li>
-            <li><a id="footlink" href="# ">Terms</a></li>
-            <li><a id="footlink" href="# ">Settings</a></li>
-
-
-        </ul>
-
-
-
+        <div class="bar1">
+            <p class="country ">Portugal</p>
+        </div>
+        <div class="bar2">
+            <ul>
+                <li><a href="#">Advertising</a></li>
+                <li><a href="#">Business</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">How Search Works</a></li>
+            </ul>
+            <ul>
+                <li><a href="#">Privacy </a></li>
+                <li><a href="#">Term</a></li>
+                <li><a href="#">Setting</a></li>
+            </ul>
+        </div>
 
     </footer>
 </body>
