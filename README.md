@@ -1,6 +1,4 @@
 
-ODIN
+Web Development 
 
-Web Development 101 Path
-
-1ºProject->Build a google page copy
+Build a google page copy
